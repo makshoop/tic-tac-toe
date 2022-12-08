@@ -13,6 +13,5 @@
     "vite": "^3.2.3"
   },
   "dependencies": {
-    "@primer/octicons": "^17.9.0"
   }
 }

@@ -4,7 +4,7 @@ export const playerIndicatorWiew = {
 	insertPlayer1() {
 		this.playerIndicator.innerHTML = `
             <h1 class="player-1" id="pl1">
-                Игрок 1 <i class="fa fa-times" aria-hidden="true"></i>
+                Игрок 1 X
             </h1>
         `;
 	},
@@ -12,7 +12,7 @@ export const playerIndicatorWiew = {
 	insertPlayer2() {
 		this.playerIndicator.innerHTML = `
             <h1 class="player-2" id="pl2">
-                Игрок 2 <i class="fa fa-circle-o" aria-hidden="true"></i>
+                Игрок 2 O</i>
         	</h1>
         `;
 	},
@@ -24,7 +24,7 @@ export const ticTacToeFieldView = {
 	insertSign1(cellIndex) {
 		this.cells[cellIndex].innerHTML = `
             <div class="cross">
-                <i class="fa fa-times" aria-hidden="true"></i>
+                X
             </div>
         `;
 	},
@@ -32,7 +32,7 @@ export const ticTacToeFieldView = {
 	insertSign2(cellIndex) {
 		this.cells[cellIndex].innerHTML = `
             <div class="circle">
-                <i class="fa fa-circle-o" aria-hidden="true"></i>
+                O
             </div>
         `;
 	},

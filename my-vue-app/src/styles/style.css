@@ -23,10 +23,12 @@
   }
 
 .cross {
+    font-family: sans-serif;
     color: var(--pl1-color);
 }
 
 .circle {
+    font-family: sans-serif;
     color: var(--pl2-color);
 }
 
